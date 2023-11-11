@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Razorpay - Best Payment Solution for Online Payments India</title>
+        <style>
+            *{
+                margin: 0;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                max-width: 100vw;
+            }
+            .aa1{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                background: white;
+                height: 56px;
+                position: relative;
+                align-items: center;
+            }
+            .aa2{
+                max-height: 40px;
+                padding-right: 65px;
+            }
+            .aa3{
+                font-size: 16px;
+                font-weight: 645;
+                margin-right: 20px;
+            }
+            .aa4{
+                padding: 7px 15px;
+                background-color: rgb(248, 79, 22);
+                font-size: 13px;
+                color: white;
+                border-radius: 2px;
+                outline: 2px white solid;
+            }
+            .aa5{
+                background-color: rgb(0, 0, 54);
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                min-height: 100px;
+            }
+            .aa6{
+                height: 25px;
+                width: 120px;
+                display: inline-block;
+                margin-right: 20px;
+                position: relative;
+                top: 30px;
+            }
+            .aa7{
+                background-color: rgb(0, 0, 54);
+                height: 100px;
+                position: relative;
+                display: block;
+            }
+            .aa8{
+                height: 29px;
+                width: 31px;
+                position: relative;
+                top: 30px;
+            }
+            .aa9{
+                background: transparent; 
+                color: white; 
+                border-width: 0; 
+                cursor: pointer;
+                padding: 0px 12px;
+                font-size: medium;
+                font-weight: 300;
+                position: relative;
+                top: 35px;
+                text-decoration: none;
+            }
+            .ab1{
+                border: 1px rgb(0, 170, 255) solid;
+                color: white;
+                padding: 12px 20px;
+                text-decoration: none;
+                font-weight: 550;
+                font-size: 14px;
+                margin-right: 10px;
+                position: relative;
+                top: 20px;
+                border-radius: 2px;
+            }
+            .ab2{
+                background-color: white;
+                color: rgb(88, 143, 177);
+                padding: 12.5px 25px;
+                text-decoration: none;
+                font-weight: 550;
+                font-size: 14px;
+                position: relative;
+                top: 20px;
+                border-radius: 3px;
+            }
+            .ab3{
+                background-color: rgb(0, 0, 54); 
+                color: white; 
+                min-height: 78vh;
+                width: 100%;
+                display: block;
+            }
+            .ab4{
+                padding-inline-start: 2rem; 
+                padding-inline-end: 2rem;
+            }
+            .ab5{
+                display: flex; 
+                justify-content: center; 
+                flex-direction: row; 
+                align-items: center; 
+                position: relative;
+            }
+            .ab6{
+                outline: 0px; 
+                max-width: 410px; 
+                padding: 30px 10px;
+            }
+            .ab7{
+                font-size: 42px;
+                margin: 9px 0px;
+            }
+            .ab8{
+                display: inline-block; 
+                width: 24px; 
+                height: 4px; 
+                background-color: rgb(76, 208, 76); 
+                margin: 25px 0px;
+            }
+            .ab9{
+                font-size: large;
+                font-weight: 300;
+                color: rgba(203, 201, 201, 0.8);
+                margin-top: 9px;
+                margin-bottom: 30px;
+                line-height: 1.75rem;
+            }
+            #ab22{
+                background-color: rgb(42, 130, 225);
+                color: white;
+                font-weight: 600;
+                font-size: medium;
+                padding: 15px 22.5px;
+            }
+            .ac1{
+                text-align: center;
+                position: relative;
+                padding-top: 20px;
+                padding-inline-start: 2rem;
+                padding-inline-end: 2rem;
+                display: block;
+            }
+            .ac2{
+                max-width: 1080px;
+                margin: auto;
+                text-align: center;
+                display: block;
+            }
+            #ab82{
+                margin: 1rem 0rem;
+            }
+            .ac4{
+                border: 1px solid rgb(199, 197, 197);
+                border-radius: 9px;
+                margin: 3.5rem 0rem;
+                position: relative;
+                background-color: white;
+                text-align: left;
+            }
+            .ac5{
+                padding-inline-start: 3rem;
+                padding-inline-end: 3rem;
+                position: relative;
+                padding-top: 2.5rem;
+                padding-bottom: 2.5rem;
+                display: flex;
+                flex-direction: row;
+            }
+            .ac7{
+                max-width: 510px;
+                font-size: 29px;
+                font-weight: 630;
+                color: rgba(0, 0, 0, 0.9);
+                line-height: 1.6;
+                padding-bottom: 30px;
+            }
+            #ac72{
+                color: rgba(2, 119, 236, 0.9);
+            }
+            .ac8{
+                margin-left: 15px;
+                color: rgba(0, 0, 0, 0.8);
+            }
+            .ac9{
+                font-size: medium;
+                padding: 10px 0px;
+                color: rgb(9, 222, 9);
+                font-weight: 375;
+            }
+            #ab23{
+                background-color: rgb(42, 130, 225);
+                color: white;
+                padding: 15px 22.5px;
+                text-decoration: none;
+                font-weight: 600;
+                font-size: medium;
+                border-radius: 3px;
+                margin-top: 20px;
+                margin-bottom: 0px;
+            }
+            .ad1{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                padding: 15px 0px;
+            }
+            .ad2{
+                color: rgb(42, 130, 225);
+                text-decoration: none;
+                padding-left: 20px;
+                font-weight: 575;
+                margin-top: 20px;
+            }
+            .ad3{
+                max-width: 600px;
+                height: 100%;
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                width: auto;
+            }
+            .ad4{
+                text-align: left;
+                line-height: 1.5;
+            }
+            .ad5{
+                display: grid;
+                justify-items: center;
+                grid-gap: 2rem;
+                grid-template-columns: repeat(3,1fr);
+            }
+            .ad6{
+                text-decoration: none;
+                outline: 2px solid transparent;
+                outline-offset: 2px;
+                color: rgb(42, 130, 225);
+                position: relative;
+                height: 225px;
+                width: 100%;
+                display: inline-block;
+                background-color: transparent;
+                border: 0.5px solid rgb(194, 194, 194);
+                border-radius: 5px;
+            }
+            .ad7{
+                position: absolute;
+                top: 0.625rem;
+                right: 0.625rem;
+                border-radius: 9999px;
+                background-color: rgb(42, 130, 225);
+                height: 3rem;
+                width: 3rem;
+                max-width: 100%;
+            }
+            .ad9{
+                position: relative;
+                padding-left: 1.25rem;
+                padding-right: 3rem;
+                padding-top: 1.5rem;
+                padding-bottom: 1.5rem;
+            }
+            .ae1{
+                line-height: 1.2;
+                font-weight: 700;
+                font-size: 1.350rem;
+                color: black;
+                margin: 0;
+                display: block;
+            }
+            .ae2{
+                color: black;
+                opacity: 0.5;
+                font-weight: 320;
+                display: block;
+                margin-block-start: 1.5rem;
+                max-width: 16rem;
+                font-size: medium;
+            }
+            #ae26{
+                max-width: 17rem;
+            }
+            .ae4{
+                padding-inline-start: 1.5rem;
+                padding-inline-end: 1.5rem;
+                position: absolute;
+                bottom: 1.25rem;
+                font-weight: 600;
+            }
+            .ae5{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                border: 1px solid rgba(42, 134, 243, 0.32);
+                border-radius: 8px;
+                padding: 16px;
+                margin-top: 1.25rem;
+                margin-bottom: 1.25rem;
+                gap: 8px;
+                background-color: rgba(123, 189, 233, 0.25);
+            }
+            .ae6{
+                font-size: 14px;
+                line-height: 1.2;
+                font-weight: 725;
+                text-align: center;
+            }
+            .ae7{
+                font-size: 14px;
+                font-weight: 300;
+                text-align: left;
+                white-space: break-spaces;
+            }
+            .ae8{
+                text-decoration: none;
+                color: rgb(42, 130, 225);
+                font-size: 14px;
+                font-weight: 700;
+                text-align: center;
+            }
+            .ae9{
+                padding-bottom: 200px;
+                padding-top: 14rem;
+                padding-inline-start: 2rem;
+                padding-inline-end: 2rem;
+                background-color: rgb(24 28 46);
+            }
+            .af1{
+                max-width: 1080px;
+                display: revert;
+                width: 100%;
+                margin: auto;
+                text-align: center;
+                color: white;
+                line-height: 1.5rem;
+            }
+            .af2{
+                display: block;
+                padding-top: 4rem;
+                line-height: 1.2;
+                font-weight: 750;
+                color: white;
+                text-align: center;
+            }
+            .af3{
+                position: relative;
+                text-align: center;
+                color: white;
+            }
+            .af4{
+                top: -142px;
+                left: -140px;
+                right: unset;
+                width: 200px;
+                position: absolute;
+                max-width: 100%;
+                height: auto;
+                z-index: 0;
+            }
+            .af5{
+                position: absolute;
+                display: block;
+                top: 150px;
+                right: -180px;
+                max-width: 100%;
+                height: auto;
+                z-index: 0;
+            }
+            .af6{
+                position: relative;
+                border: 1px solid rgb(82 90 118);
+                border-radius: 0.5rem;
+                margin: 4rem 0rem;
+                text-align: left;
+                color: white;
+                background-color: rgb(24 28 46);
+            }
+            .af7{
+                height: 100%;
+                display: initial;
+                position: absolute;
+                right: 0px;
+                bottom: 0px;
+                width: auto;
+                max-width: 600px;
+            }
+            .af8{
+                position: relative;
+                padding: 3rem 3rem;
+                text-align: left;
+                display: block;
+            }
+            .af9{
+                font-size: 1.75rem;
+                display: block;
+                max-width: 510px;
+                font-weight: 600;
+                line-height: 1.625;
+                color: white;
+                padding-bottom: 2rem;
+            }
+            .ag1{
+                display: inline-block;
+                width: 170px;
+                position: relative;
+                height: auto;
+                top: 7px;
+            }
+            .ag2{
+                font-size: medium;
+                font-weight: 375;
+                color: rgb(49, 222, 176);
+                line-height: 2.125;
+            }
+            .ag3{
+                color: rgb(255, 255, 255, 0.8);
+                font-weight: 300;
+                margin-left: 1rem;
+            }
+            .ag4{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                padding-top: 2rem;
+            }
+            .ag5{
+                display: flex;
+                flex-direction: row;
+                align-items: normal;
+                justify-content: center;
+                top: 0px;
+                width: 100%;
+                height: 64px;
+                position: sticky;
+                border: 1px 0px solid rgb(232 232 232);
+                z-index: 10;
+                background-color: white;
+            }
+            .ag6{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                width: 100%;
+                max-width: 1080px;
+            }
+            .ag7{
+                text-decoration: none;
+                padding-top: 1rem;
+                padding-bottom: 1rem;
+                padding-right: 22px;
+                background-color: transparent;
+            }
+            .ag8{
+                width: 125px;
+                height: 30px;
+                display: inline-block;
+            }
+            .ag9{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: normal;
+            }
+            .ah1{
+                position: relative;
+            }
+            .ah2{
+                padding: 0rem 0.75rem;
+                border: none;
+                background-color: transparent;
+            }
+            .ah3{
+                height: 28px;
+                width: 31px;
+            }
+            .ah4{
+                text-decoration: none;
+                width: 270px;
+                font-size: 1rem;
+                text-align: center;
+                line-height: 1.2;
+                border-radius: 4px;
+                font-weight: 580;
+                padding: 8.5px 0px;
+                background-color: rgb(42, 130, 225);
+                color: white;
+            }
+            .ah5{
+                margin-bottom: 44px;
+                text-align: left;
+            }
+            .ah6{
+                display: grid;
+                justify-items: center;
+                grid-gap: 2rem;
+                grid-template-columns: repeat(3,1fr);
+            }
+            .ah7{
+                text-decoration: none;
+                color: rgb(42, 130, 225);
+                height: 225px;
+                
+                position: relative;
+                display: inline-block;
+                border: 0.1px solid rgba(129, 133, 151, 0.7);
+            }
+            .ah8{
+                position: absolute;
+                top: 0.625rem;
+                right: 0.625rem;
+                height: 3rem;
+                width: 3rem;
+                border-radius: 9999px;
+                background-color: rgb(42, 130, 225);
+            }
+            .ah9{
+                position: relative;
+                padding: 1.5rem 3rem 1.5rem 1.25rem;
+            }
+            .ai1{
+                line-height: 1.2;
+                font-weight: 650;
+                color: white;
+                font-size: 22px;
+            }
+            .ai2{
+                margin-top: 1.5rem;
+                color: white;
+                opacity: 0.6;
+            }
+            .ai3{
+                padding-inline-start: 1.5rem;
+                padding-inline-end: 1.5rem;
+                font-weight: 600;
+                position: absolute;
+                bottom: 1.5rem;
+            }
+            .ai4{
+                margin: 4rem 0rem;
+                padding: 2rem 0rem;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                border: 1px solid rgb(82 90 118);
+                border-radius: 8px;
+            }
+            .ai5{
+                font-size: 20px;
+                font-weight: 200;
+            }
+            .ai6{
+                font-weight: 600;
+            }
+            .ai7{
+                width: 200px;
+                line-height: 1.2;
+                border-radius: 4px;
+                font-weight: 600;
+                height: auto;
+                background-color: rgb(42, 130, 225);
+                color: white;
+                font-size: 1rem;
+                padding: 14px 18px;
+                text-decoration: none;
+            }
+            .ai8{
+                display: flex;
+                justify-content: center;
+                width: 100%;
+            }
+            .ai9{
+                width: 100%;
+                max-width: 1080px;
+                position: relative;
+                background-color: white;
+            }
+            .aj1{
+                display: inline-block;
+                position: absolute;
+                width: 233px;
+                z-index: -1;
+                left: 300px;
+                top: calc(6rem * -1);
+            }
+            .aj2{
+                display: inline-block;
+                position: absolute;
+                width: 233px;
+                z-index: -1;
+                top: calc(6rem * -1);
+                right: calc(3.5rem * -1);
+            }
+            .aj3{
+                display: grid;
+                grid-template-columns: repeat(3,1fr);
+                grid-row-gap: 2.5rem;
+                grid-column-gap: 1rem;
+                border-color: rgb(129 133 151);
+            }
+            .aj4{
+                align-self: center;
+            }
+            .aj5{
+                font-weight: 750;
+                font-size: 2.5rem;
+                color: rgb(0, 0, 54);
+                line-height: 3.375rem;
+            }
+            .aj6{
+                color: rgb(42, 130, 225);
+            }
+            .aj7{
+                text-decoration: none;
+                max-height: 300px;
+                max-width: 100%;
+                display: inline-block;
+                color: rgb(129 133 151);
+                background-color: white;
+                padding: 2.5rem;
+                border: 0.1px solid rgba(0, 0, 0, 0.2);
+            }
+            .aj8{
+                display: flex;
+                flex-direction: column;
+            }
+            .aj9{
+                background-color: rgb(42, 130, 225);
+                height: 2.5rem;
+                width: 2.5rem;
+                border-radius: 9999px;
+            }
+            .ak1{
+                padding-top: 1rem;
+                color: black;
+                font-weight: 745;
+                font-size: large;
+            }
+            .ak2{
+                padding: 0.75rem 0rem;
+                line-height: 1.5;
+                font-weight: 300;
+            }
+            .ak3{
+                color: rgb(42, 130, 225);
+                font-weight: 640;
+            }
+        </style>
+    </head>
+    <body style="min-height: 300vh;">
+        <div>
+            <div class="aa1">
+                <div>
+                    <img class="aa2" src="https://media.razorpay.com/file/Platform/growth/payroll-index-2023-logo.png">
+                </div>
+                <div>
+                    <span class="aa3">Take the assessment to know your organisation's payroll health!</span>
+                    <a target="__blank" class="aa4" href="https://form.typeform.com/to/btiy3yzx?utm_source=pg_dashboard&utm_medium=pg&utm_campaign=pg_dashboard" 
+                    role="button">Start Now</a>
+                </div>
+            </div>
+            <nav class="aa7">
+                <div class="aa5">
+                    <a href="https://razorpay.com/"><img class="aa6" src="data:image/png;base64,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"></a>
+                    <div>
+                        <div>
+                            <span><button class="aa9">Payments</button></span>
+                            <span><button class="aa9">Banking+</button></span>
+                            <span><button class="aa9"><a href="https://razorpay.com/x/line-of-credit/" style="color: white; text-decoration: none;">Credit</a></button></span>
+                            <span><button class="aa9">Payroll</button></span>
+                            <span><button class="aa9">Resources</button></span>
+                            <span><button class="aa9">Support</button></span>
+                            <span><button class="aa9" style="margin-right: 60px;"><a href="https://razorpay.com/pricing/" style="color: white; text-decoration: none;">Pricing</a></button></span>
+                        </div>
+                    </div>
+                    <div>
+                        <div style="display: inline;">
+                            <button style="background: transparent; border-width: 0;">
+                                <span>
+                                    <img class="aa8" alt="logo" src="https://razorpay.com/build/browser/static/indian-flag.a7d181aa.svg">
+                                    <span style="font-family: monospace; color: rgb(255, 255, 255, 0.661); position: relative; top: 15px; margin-right: 5px;">⌄</span>
+                                </span>
+                            </button>
+                        </div>
+                        <a class="ab1" href="https://dashboard.razorpay.com/signin?utm_medium=website&utm_source=direct">Log In</a>
+                        <a class="ab2" target="_blank" href="https://razorpay.com/explore_signup/?cta_btn=Navbar_Header&utm_medium=website&utm_source=direct">Sign Up →</a>
+                    </div>
+                </div>
+            </nav>
+            <div>
+                <main style="position: relative;">
+                    <section class="ab3">
+                        <div class="ab4">
+                            <div class="ab5">
+                                <div class="ab6">
+                                    <h1 class="ab7">Power your finance, grow your business</h1>
+                                    <div>
+                                        <span class="ab8"></span>
+                                    </div>
+                                    <p class="ab9">Accept payments from customers. Automate payouts to vendors & employees. Never run out of working capital.</p>
+                                    <a class="ab2" id="ab22" href="https://razorpay.com/explore_signup/?cta_btn=Navbar_Header&utm_medium=website&utm_source=direct">Sign Up Now →</a>
+                                </div>
+                                <div>
+                                    <img src="https://razorpay.com/build/browser/static/home-desktop.4a9233fc.jpg" style="height: 575px; width: 670px;">
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <div class="ag5">
+                        <div class="ag6">
+                            <a class="ag7" href="https://razorpay.com/"><img class="ag8" src="data:image/png;base64,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"></a>
+                            <div class="ag9">
+                                <div class="ah1">
+                                    <button class="ah2">
+                                        <span>
+                                            <img src="https://razorpay.com/build/browser/static/indian-flag.a7d181aa.svg" class="ah3">
+                                        </span>
+                                    </button>
+                                </div>
+                                <a class="ah4" href="https://easy.razorpay.com/onboarding/l1/signup?field=MobileNumber&source=website">
+                                    Start Accepting Payments →
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <section class="ac1">
+                        <div class="ac2">
+                            <h2 class="ac3">Accept Payments with Razorpay Payment Suite</h2>
+                            <div>
+                                <span class="ab8" id="ab82"></span>
+                            </div>
+                            <div class="ac4">
+                                <div class="ac5">
+                                    <div class="ac6">
+                                        <h3 class="ac7">Supercharge your business with the all-powerful <span id="ac72">Payment Gateway</span></h3>
+                                        <h4 class="ac9">✓ <span class="ac8">100+ Payment Methods</span></h4>
+                                        <h4 class="ac9">✓ <span class="ac8">Industry Leading Success Rate</span></h4>
+                                        <h4 class="ac9">✓ <span class="ac8">Superior Checkout Experience</span></h4>
+                                        <h4 class="ac9">✓ <span class="ac8">Easy to Integrate</span></h4>
+                                        <h4 class="ac9">✓ <span class="ac8">Instant Settlemennst from day 1</span></h4>
+                                        <h4 class="ac9">✓ <span class="ac8">In-depth Reporting and Insights</span></h4>
+                                        <div class="ad1">
+                                            <a id="ab23" href="https://razorpay.com/explore_signup/?cta_btn=Navbar_Header&utm_medium=website&utm_source=direct">Sign Up Now →</a>
+                                            <a class="ad2" href="https://razorpay.com/payment-gateway/">Know More →</a>
+                                        </div>
+                                    </div>
+                                    <img class="ad3" src="https://razorpay.com/build/browser/static/payment-suite.c8ef898b.png">
+                                </div>
+                            </div>
+                            <div class="ad4">
+                                <div class="ad5">
+                                    <a href="https://razorpay.com/payment-links/" class="ad6">
+                                        <img src="https://razorpay.com/build/browser/static/payment-links.a69f2346.svg" class="ad7">
+                                        <div class="ad9">
+                                            <h3 class="ae1">Payment Links</h3>
+                                            <p class="ae2">
+                                                <span class="ae3">Share payment link via an email, SMS, messenger, chatbot etc. and get paid immediately</span>
+                                            </p>
+                                        </div>
+                                        <div class="ae4">
+                                            <span>Know More →</span>
+                                        </div>
+                                    </a>
+                                    <a href="https://razorpay.com/payment-pages/" class="ad6">
+                                        <img src="https://razorpay.com/build/browser/static/payment-pages.eadf7c84.svg" class="ad7">
+                                        <div class="ad9">
+                                            <h3 class="ae1">Payment Pages</h3>
+                                            <p class="ae2">
+                                                <span class="ae3">Take your store online instantly with zero coding. Accept international & domestic payments</span>
+                                            </p>
+                                        </div>
+                                        <div class="ae4">
+                                            <span>Know More →</span>
+                                        </div>
+                                    </a>
+                                    <a href="https://razorpay.com/payment-buttons/" class="ad6">
+                                        <img src="https://razorpay.com/build/browser/static/payment-buttons.74fc1e0f.svg" class="ad7">
+                                        <div class="ad9">
+                                            <h3 class="ae1">Payment Buttons</h3>
+                                            <p class="ae2">
+                                                <span class="ae3">Create, Copy & Collect with Payment Button. Collect one time or subscription payments & more</span>
+                                            </p>
+                                        </div>
+                                        <div class="ae4">
+                                            <span>Know More →</span>
+                                        </div>
+                                    </a>
+                                    <a href="https://razorpay.com/subscriptions/" class="ad6">
+                                        <img src="https://razorpay.com/build/browser/static/subscriptions.c13b66c6.svg" class="ad7">
+                                        <div class="ad9">
+                                            <h3 class="ae1">Subscriptions</h3>
+                                            <p class="ae2">
+                                                <span class="ae3">Subscription plans with automated recurring transactions on various payment modes.</span>
+                                            </p>
+                                        </div>
+                                        <div class="ae4">
+                                            <span>Know More →</span>
+                                        </div>
+                                    </a>
+                                    <a href="https://razorpay.com/route/" class="ad6">
+                                        <img src="https://razorpay.com/build/browser/static/route.e2acb75d.svg" class="ad7">
+                                        <div class="ad9">
+                                            <h3 class="ae1">Route</h3>
+                                            <p class="ae2">
+                                                <span class="ae3">Split incoming payments automatically to vendor's accounts, manage marketplace money flow...</span>
+                                            </p>
+                                        </div>
+                                        <div class="ae4">
+                                            <span>Know More →</span>
+                                        </div>
+                                    </a>
+                                    <a href="https://razorpay.com/payment-links/" class="ad6">
+                                        <img src="https://razorpay.com/build/browser/static/smart-collect.8fc3d60e.svg" class="ad7">
+                                        <div class="ad9">
+                                            <h3 class="ae1">Smart Collect</h3>
+                                            <p class="ae2" id="ae26">
+                                                <span class="ae3">Automatically reconcile incoming NEFT, RTGS, IMPS, UPI payments using Customer Identifiers & UPI-IDs</span>
+                                            </p>
+                                        </div>
+                                        <div class="ae4">
+                                            <span>Know More →</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="ae5">
+                                <h5 class="ae6">Not sure which product to choose?</h5>
+                                <p class="ae7">Answer a few questions and we'll help you out</p>
+                                <a class="ae8" href="https://easy.razorpay.com/product-recommender">Find me a product →</a>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="ae9">
+                        <div class="af1">
+                            <h2 class="af2">Explore RazorpayX powered Business Banking</h2>
+                            <div>
+                                <span class="ab8" id="ab82"></span>
+                            </div>
+                            <div class="af3">
+                                <img src="https://razorpay.com/build/browser/static/x-flame-1.56d9277e.png" class="af4">
+                                <img src="https://razorpay.com/build/browser/static/x-flame-2.bb3b0a86.png" class="af5">
+                                <div class="af6">
+                                    <img src="https://razorpay.com/build/browser/static/x-graphic.b40f463e.png" class="af7">
+                                    <div class="af8">
+                                        <h3 class="af9">Manage your company's finances and supercharge your business banking with
+                                            <img height="32px" src="https://razorpay.com/build/browser/static/razorpay-x-logo.5cf8015e.svg" class="ag1">
+                                        </h3>
+                                        <h4 class="ag2">✓ <span class="ag3">Open a fully digital current account</span></h4>
+                                        <h4 class="ag2">✓ <span class="ag3">Automate payables & compliment payments</span></h4>
+                                        <h4 class="ag2">✓ <span class="ag3">Simplify and track spends with Corporate cards</span></h4>
+                                        <h4 class="ag2">✓ <span class="ag3">View financial insights at a glance</span></h4>
+                                        <div class="ag4">
+                                            <a id="ab23" href="https://razorpay.com/explore_signup/?cta_btn=Navbar_Header&utm_medium=website&utm_source=direct">Sign Up Now →</a>
+                                            <a class="ad2" href="https://razorpay.com/payment-gateway/">Know More →</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ah5">
+                                <div class="ah6">
+                                    <a class="ah7" href="https://razorpay.com/x/current-accounts/">
+                                        <img class="ah8" src="https://razorpay.com/build/browser/static/current-account.24d6f91e.svg">
+                                        <div class="ah9">
+                                            <h3 class="ai1">Current Account</h3>
+                                            <p class="ai2">Current accounts for fast-growing businesses, supported by the best-in-class technology</p>
+                                        </div>
+                                        <div class="ai3">
+                                            <span>Know More →</span>
+                                        </div>
+                                    </a>
+                                    <a class="ah7" href="https://razorpay.com/payouts/">
+                                        <img class="ah8" src="https://razorpay.com/build/browser/static/payouts.1298a79c.svg">
+                                        <div class="ah9">
+                                            <h3 class="ai1">Payouts</h3>
+                                            <p class="ai2">Make simple, reliable & secure payouts to bank accounts, UPI IDs or wallets</p>
+                                        </div>
+                                        <div class="ai3">
+                                            <span>Know More →</span>
+                                        </div>
+                                    </a>
+                                    <a class="ah7" href="https://razorpay.com/payouts/">
+                                        <img class="ah8" src="https://razorpay.com/build/browser/static/payouts.1298a79c.svg">
+                                        <div class="ah9">
+                                            <h3 class="ai1">Payroll</h3>
+                                            <p class="ai2">Set your payroll and compliances like TDS, ESIC, PT, & PF on autopilot.</p>
+                                        </div>
+                                        <div class="ai3">
+                                            <span>Know More →</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="ai4">
+                                <p class="ai5">
+                                    Check out the live demo to learn how RazorpayX works.
+                                    <span class="ai6">No sign-up required!</span>
+                                </p>
+                                <a target="_blank" class="ai7" href="https://x.razorpay.com/demo/">Check out the demo →</a>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="ai8">
+                        <div class="ai9">
+                            <img src="https://razorpay.com/build/browser/static/dots-with-cut.bde9e78f.png" class="aj1">
+                            <img src="https://razorpay.com/build/browser/static/dots-with-cut.bde9e78f.png" class="aj2">
+                            <div class="aj3">
+                                <div class="aj4">
+                                    <h2 class="aj5">
+                                        New in the <span class="aj6">Razorpay</span> 
+                                        <br>Product Suite</h2>
+                                </div>
+                                <a class="aj7" href="https://razorpay.com/capital/instant-settlements/">
+                                    <div class="aj8">
+                                        <img src="https://razorpay.com/build/browser/static/instant-settlements.b6b6e467.svg" class="aj9">
+                                        <h3 class="ak1">Instant Settlements</h3>
+                                    </div>
+                                    <p class="ak2">Settle your customer payments within 10 seconds as soon your account is activated, even during holidays.</p>
+                                    <span class="ak3">Know More →</span>
+                                </a>
+                                <a class="aj7" href="https://razorpay.com/capital/instant-settlements/">
+                                    <div class="aj8">
+                                        <img src="https://razorpay.com/build/browser/static/upi-autopay.df1cd0fd.svg" class="aj9">
+                                        <h3 class="ak1">UPI AutoPay</h3>
+                                    </div>
+                                    <p class="ak2">Allow customers to set up recurring payments using UPI Apps.</p>
+                                    <span class="ak3">Know More →</span>
+                                </a>
+                                <a class="aj7" href="https://razorpay.com/pa">
+                                    <div class="aj8">
+                                        <img src="https://razorpay.com/build/browser/static/payment-buttons.74fc1e0f.svg" class="aj9">
+                                        <h3 class="ak1">Payment Button</h3>
+                                    </div>
+                                    <p class="ak2">Accept payments on your website, in less than 5 minutes. No developer needed.</p>
+                                    <span class="ak3">Know More →</span>
+                                </a>
+                                <a class="aj7" href="https://razorpay.com/qr-code/">
+                                    <div class="aj8">
+                                        <img src="https://razorpay.com/build/browser/static/qr-mc-code.aec73db1.svg" class="aj9">
+                                        <h3 class="ak1">QR Codes</h3>
+                                    </div>
+                                    <p class="ak2">Create unlimited QR codes with business branding and start accepting payments for free.</p>
+                                    <span class="ak3">Know More →</span>
+                                </a>
+                                <a class="aj7" href="https://razorpay.com/magic/">
+                                    <div class="aj8">
+                                        <img src="https://razorpay.com/build/browser/static/supercheckout-comp.49cd2f79.svg" class="aj9">
+                                        <h3 class="ak1">Magic Checkout</h3>
+                                    </div>
+                                    <p class="ak2">Improve your order conversion rates & reduce return-to-origins. Boost your business by 20%!</p>
+                                    <span class="ak3">Know More →</span>
+                                </a>
+                            </div>
+                        </div>
+                    </section>
+                </main>
+            </div>
+    </body>
+<html>
